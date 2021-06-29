@@ -8,9 +8,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link text-muted" href="#">Home</a>
-                    <a class="nav-item nav-link text-muted" href="#">About</a>
-                    <a class="nav-item nav-link text-muted" href="#">Services</a>
+                    <a class="nav-item nav-link text-muted" href='/welcome'>Welcome</a>
+                    <a class="nav-item nav-link text-muted" href="/about">About</a>
+                    <a class="nav-item nav-link text-muted" href="/services">Services</a>
                 </div>
             </div>
         </div>

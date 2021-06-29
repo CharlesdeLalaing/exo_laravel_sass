@@ -22,3 +22,8 @@ Route::get('/welcome', function () {
     $url = URL::current();
     return view('pages.welcome', compact('pageName', 'url'));
 });
+
+Route::get('/services', function () {
+    $pageName = 'service';
+    return view('pages.services', compact('pageName'));
+});
