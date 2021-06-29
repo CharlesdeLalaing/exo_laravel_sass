@@ -13,17 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/welcome', function () {
     $pageName = 'welcome';
-    $url = URL::current();
-    return view('pages.welcome', compact('pageName', 'url'));
+    return view('pages.welcome', compact('pageName'));
 });
 
 Route::get('/services', function () {
-    $pageName = 'service';
+    $pageName = 'services';
     return view('pages.services', compact('pageName'));
+});
+
+Route::get('/about', function () {
+    $pageName = 'about';
+    return view('pages.about', compact('pageName'));
 });
